@@ -10,5 +10,7 @@ router.get('/name/:name', ApiControler.name);
 
 router.post("/frases", ApiControler.createPhrase);
 router.post("/frases", ApiControler.listPhrase);
+router.post("/frase/:id", ApiControler.getPhrase);
+router.post("/frase/:id", ApiControler.updatePhrase);
 
 export default router;
