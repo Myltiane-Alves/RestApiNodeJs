@@ -12,5 +12,6 @@ router.post("/frases", ApiControler.createPhrase);
 router.post("/frases", ApiControler.listPhrase);
 router.post("/frase/:id", ApiControler.getPhrase);
 router.post("/frase/:id", ApiControler.updatePhrase);
+router.post("/frase/:id", ApiControler.deletePhrase);
 
 export default router;
